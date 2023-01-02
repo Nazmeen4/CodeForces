@@ -1,0 +1,20 @@
+//https://codeforces.com/problemset/problem/977/A
+import java.util.*;
+public class Second {
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        int num,d,t;
+        num=sc.nextInt();
+        t=sc.nextInt();
+        while(t--!=0){
+            d=num%10;
+            if(d==0){
+                num=num/10;
+            }
+            else
+                num=num-1;
+            
+        }
+        System.out.print(num);
+    }
+}
