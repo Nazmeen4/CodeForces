@@ -1,0 +1,16 @@
+//https://codeforces.com/contest/791
+import java.util.*;
+public class Beig {
+    public static void main(String args[]){
+        int y,e,c=0;
+        Scanner sc=new Scanner(System.in);
+        y=sc.nextInt();
+        e=sc.nextInt();
+        while(y<=e){
+            y=y*3;
+            e=e*2;
+            c++;
+        }
+        System.out.println(c);
+    }
+}
